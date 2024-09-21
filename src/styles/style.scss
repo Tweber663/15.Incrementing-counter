@@ -1,0 +1,38 @@
+body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-color: #a064dd;
+    font-family: 'Roboto Mono', sans-serif; 
+
+}
+
+i {
+    font-size: 50px;
+    color: white; 
+}
+
+span {
+    color: white;
+}
+
+@media(max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+    .counter-container {
+        margin: 25px 0;
+    }
+}
+
+.counter-container {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.counter {
+    font-size: 40px;
+    color: white;
+    margin: 5px 0;
+}
